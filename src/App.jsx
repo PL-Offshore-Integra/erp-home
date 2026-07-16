@@ -13,8 +13,8 @@ const EMPRESAS = [
     color: "#213363",
     url: "https://integra.paranalogistica.com.ar",
     activo: true,
-    modulos: ["compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker"],
-    modulosLabel: { compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker" },
+    modulos: ["hsqe", "compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker"],
+    modulosLabel: { hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker" },
   },
   {
     id: "cleansea",
@@ -25,8 +25,8 @@ const EMPRESAS = [
     color: "#1A7A6E",
     url: "https://integra.cleansea.com.ar",
     activo: true,
-    modulos: ["inventario", "viveres"],
-    modulosLabel: { inventario:"Inventario", viveres:"Víveres" },
+    modulos: ["hsqe", "inventario", "viveres"],
+    modulosLabel: { hsqe:"HSQE", inventario:"Inventario", viveres:"Víveres" },
   },
   {
     id: "terramare",
