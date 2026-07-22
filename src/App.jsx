@@ -11,7 +11,7 @@ const EMPRESAS = [
     icono: "🚢",
     logo: "/PL.png",
     color: "#213363",
-    url: "https://integra.paranalogistica.com.ar",
+    url: "https://integra.ploffshore.com",
     activo: true,
     modulos: ["hsqe", "compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker"],
     modulosLabel: { hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker" },
