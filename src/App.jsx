@@ -85,7 +85,7 @@ function LoginPage() {
       {/* ── Panel de marca ── */}
       <section className="login-brand">
         <div className="login-brand-top">
-          <img src="/integralogo.png" alt="INTEGRA" className="login-brand-logo" />
+          <img src="/integra-logo-white-noclaim.svg" alt="INTEGRA" className="login-brand-logo" />
           <div className="login-env">
             <span className="login-env-dot" />
             PORTAL CORPORATIVO
@@ -423,7 +423,7 @@ function HomePage({ user, empresasPermitidas, onLogout }) {
   return (
     <>
       <header className="topbar">
-        <img src="/integralogo.png" alt="INTEGRA" className="topbar-logo" />
+        <img src="/integra-logo-white-noclaim.svg" alt="INTEGRA" className="topbar-logo" />
         <div className="topbar-right">
           <span className="topbar-user">{user.email}</span>
           <span className="topbar-sep" />
@@ -520,7 +520,7 @@ export default function App() {
   if (loading) return (
     <div className="loading-page">
       <div className="loading-inner">
-        <img src="/integralogo.png" alt="INTEGRA" />
+        <img src="/integra-logo-white-noclaim.svg" alt="INTEGRA" />
         <div className="loading-text">Cargando</div>
       </div>
     </div>
