@@ -17,7 +17,7 @@ const EMPRESAS = [
     url: "https://integra.ploffshore.com",
     activo: true,
     modulos: ["finanzas", "hsqe", "compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker", "pipeline"],
-    modulosLabel: { finanzas:"Finanzas", hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker", pipeline:"Pipeline comercial" },
+    modulosLabel: { finanzas:"Finanzas", hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker", pipeline:"Comercial" },
   },
   {
     id: "cleansea",
@@ -41,7 +41,7 @@ const EMPRESAS = [
     url: "https://integra.home.terra-mare.com.ar",
     activo: true,
     modulos: ["hsqe", "pipeline", "dashboards"],
-    modulosLabel: { hsqe:"HSQE", pipeline:"Pipeline", dashboards:"Dashboards" },
+    modulosLabel: { hsqe:"HSQE", pipeline:"Comercial", dashboards:"Dashboards" },
   },
   {
     id: "proyectos",
