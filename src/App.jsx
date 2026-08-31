@@ -16,8 +16,8 @@ const EMPRESAS = [
     color: "#002247",
     url: "https://integra.ploffshore.com",
     activo: true,
-    modulos: ["finanzas", "hsqe", "compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker"],
-    modulosLabel: { finanzas:"Finanzas", hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker" },
+    modulos: ["finanzas", "hsqe", "compras", "viveres", "projects", "mantenimiento", "reparaciones", "certificados", "documentos", "tripulaciones", "cost-tracker", "pipeline"],
+    modulosLabel: { finanzas:"Finanzas", hsqe:"HSQE", compras:"Compras", viveres:"Víveres", projects:"Projects", mantenimiento:"Mantenimiento", reparaciones:"Reparaciones", certificados:"Certificados", documentos:"Documentos", tripulaciones:"Tripulaciones", "cost-tracker":"Cost Tracker", pipeline:"Pipeline comercial" },
   },
   {
     id: "cleansea",
