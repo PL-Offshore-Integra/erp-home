@@ -40,8 +40,8 @@ const EMPRESAS = [
     color: "#235C96",
     url: "https://integra.home.terra-mare.com.ar",
     activo: true,
-    modulos: ["hsqe", "pipeline", "dashboards"],
-    modulosLabel: { hsqe:"HSQE", pipeline:"Comercial", dashboards:"Dashboards" },
+    modulos: ["loading-masters"],
+    modulosLabel: { "loading-masters":"VMOS Loading Masters" },
   },
   {
     id: "proyectos",
@@ -235,7 +235,7 @@ function EmpresaCard({ empresa, tieneAcceso }) {
             ? <span className="empresa-link">Ingresar al portal</span>
             : <span className="empresa-link-off">En desarrollo</span>
         }
-        <span className="empresa-count">{empresa.modulos.length} módulos</span>
+        <span className="empresa-count">{empresa.modulos.length} {empresa.modulos.length === 1 ? "módulo" : "módulos"}</span>
       </div>
     </div>
   );
